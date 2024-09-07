@@ -1,0 +1,10 @@
+DB=postgres://ue4jb1cciaok8g:p257441eec4d79548d38e5c2662f0555f6294e3df9bf8263a3140cc31f3572ef8@cd5gks8n4kb20g.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dbsdta7vlb9gc9
+USER_NAME=ue4jb1cciaok8g
+USER_PASSWORD=p257441eec4d79548d38e5c2662f0555f6294e3df9bf8263a3140cc31f3572ef8
+
+JWT_SECRET_ACCESS=LejjnLZua6SlR7eZXByD2+9M5P+dYxK3IlfA6XgPksuXijiXMAcpulI03o2Vq+PjYENhgTJGXLNm7YS4f1+IMw==
+JWT_SECRET_REFRESH=cRO8f7Q/HaE/X1QjxAHYL8Dm5qkTI68WiNi9elE1NFqsL2up0RlZn/e7aD2R5i8cMvCksBEDhUAOZAhsypQaXw==
+
+DB_LOCAL=jdbc:postgresql://localhost:5432/postgres
+USER_NAME_LOCAL=postgres
+USER_PASSWORD_LOCAL=12345User

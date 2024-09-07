@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: create-refresh-tokens
-      author: Viktor Lytvynenko
+      author: Eugene Lobok
       changes:
         - createTable:
             tableName: refresh_tokens

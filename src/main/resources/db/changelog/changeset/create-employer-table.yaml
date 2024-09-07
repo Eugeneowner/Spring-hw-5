@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: create-employer
-      author: Viktor Lytvynenko
+      author: Eugene Lobok
       changes:
         - createTable:
             tableName: employers

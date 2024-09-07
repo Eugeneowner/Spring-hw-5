@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: create-customers_employers
-      author: Viktor Lytvynenko
+      author: Eugene Lobok
       changes:
         - createTable:
             tableName: customers_employers

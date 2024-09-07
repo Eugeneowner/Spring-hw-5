@@ -25,6 +25,4 @@ public class ResponseEmployerDto extends AbstractDto {
     @JsonView(View.Admin.class)
     String address;
 
-//    @JsonView(View.Admin.class)
-//    List<ResponseCustomerDto> customers;
 }

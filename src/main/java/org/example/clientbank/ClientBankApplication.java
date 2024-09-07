@@ -31,7 +31,6 @@ public class ClientBankApplication implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws SQLException {
-        // check what base is connected
         System.out.println(dataSource.getConnection().getMetaData().getURL());
         System.out.println(activeProfile);
         System.out.println(datasourceUrl);

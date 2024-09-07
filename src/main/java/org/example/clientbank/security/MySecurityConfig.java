@@ -38,8 +38,7 @@ public class MySecurityConfig {
                                 .requestMatchers("/registration").hasAuthority("ADMIN")
                                 .requestMatchers("/create").hasAuthority("ADMIN")
                 )
-//                 only for mvc
-//                .formLogin(AbstractAuthenticationFilterConfigurer::permitAll)
+
 
                 .addFilterAfter(jwtFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();

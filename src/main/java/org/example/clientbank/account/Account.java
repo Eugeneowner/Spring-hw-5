@@ -21,21 +21,7 @@ import static lombok.AccessLevel.PRIVATE;
 @FieldDefaults(level = PRIVATE)
 @Data
 @NoArgsConstructor
-//@NamedEntityGraph(
-//        name = "graph.AccountCustomerEmployer",
-//        attributeNodes = {
-//                @NamedAttributeNode(value = "customer", subgraph = "subgraph.customer")
-//        },
-//        subgraphs = {
-//                @NamedSubgraph(
-//                        name = "subgraph.customer",
-//                        attributeNodes = {
-//                                @NamedAttributeNode("employers"),
-//                                @NamedAttributeNode("accounts")
-//                        }
-//                )
-//        }
-//)
+
 public class Account extends AbstractEntity {
 
     @Column(nullable = false)
